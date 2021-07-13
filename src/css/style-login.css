@@ -1,0 +1,95 @@
+.fondo {
+    background-image: url(../img/buahh.jpg);
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+}
+nav{
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+#dentroNav{
+    text-align: center;
+    padding: 0px;
+    width: 512px;
+    margin: 0 auto;
+}
+
+#dentroNav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+#dentroNav li{
+    display: inline-block;
+}
+#dentroNav li a{
+    text-decoration: none;
+    padding:16px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#dentroNav li a:hover{
+    text-decoration: none;
+    background-color:#B100FF  ;
+    color:#FFFFFF;
+}
+
+.bloque {
+    margin: auto;
+    margin-left: auto;
+    width: 300px; /* 300 40*/
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.815);
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 400;
+    color: white;
+}
+
+.bloque input[type = "password"], .bloque input[type = "text"] {
+    color: #800DFF;
+    border: 0;
+    margin: 20px auto;
+    padding: 14px 30px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid #2980b9;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+.bloque input[type = "submit"] {
+    display: inline-block;
+    border-radius: 14px;
+    background-color: #ff00d4bb;
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    outline: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.bloque-left {
+    text-align: left;
+}
