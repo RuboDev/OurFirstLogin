@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title class="Sign-up">Login</title>
+    <link rel="stylesheet" href="./css/style-logup.css">
+</head>
+
+<body class="fondo">
+    <!--Este es el nav-->
+    <nav>
+        <div id="dentroNav">
+            <ul>
+                <li><a id="enlace1" href="login.html" target="_blank">Login</a></li>
+                <li><a id="enlace2" href="file:///C:/Users/34693/Desktop/Login/sign-up.html" target="_blank">Sign-up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Contenedor sign-up-->
+    <section class="padre">
+        <div class="sign-up-box">
+            <h1>SIGN-UP</h1>
+            <div id="Mensaje">
+            </div>
+            <div id="Mensaje2">
+            </div>
+            <form >
+                <!-- Correo -->
+                <input type="text" id="correo" class="e-mail" required placeholder="E-mail">
+                <br />
+                <!-- Password -->
+                <input type="password" id="contraseña" required class="password" placeholder="Password">
+                <br />
+                <input  type="submit" class="sign" value="SIGN-UP" onclick=" return ValidarCampos()"  >
+
+            </form>
+        </div>
+    </section>
+    <script src="./js/mensajes2.js"></script>
+</body>
+
+</html>
