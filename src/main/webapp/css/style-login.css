@@ -93,3 +93,11 @@ h1 {
 .bloque-left {
     text-align: left;
 }
+
+#authMessage{
+    color: red;
+}
+
+#authMessage2{
+    color: rgb(29, 170, 29);
+}

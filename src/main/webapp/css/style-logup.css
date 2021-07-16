@@ -122,3 +122,10 @@ input {
     color: red;
 }
 
+#registerMessage{
+    color: rgb(29, 170, 29);
+}
+
+#registerMessage2{
+    color: red;
+}
